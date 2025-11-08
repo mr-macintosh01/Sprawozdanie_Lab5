@@ -59,7 +59,7 @@
 ### <code>kubectl describe pod -l app=zero-test -n ns-dev</code>
 <img width="1351" height="702" alt="image" src="https://github.com/user-attachments/assets/09a3e229-9952-4a6c-b95d-d5c5b1be8bd5" />
 
-<code>kubectl get pod -l app=zero-test -n ns-dev -o=jsonpath="{.items[0].spec.containers[0].resources}"</code>
+### <code>kubectl get pod -l app=zero-test -n ns-dev -o=jsonpath="{.items[0].spec.containers[0].resources}"</code>
 <img width="1123" height="252" alt="image" src="https://github.com/user-attachments/assets/2cf056a7-5666-43a5-a77c-eaba9553e983" />
 
 
